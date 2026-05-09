@@ -1,0 +1,1 @@
+ALTER TABLE "links" ADD COLUMN "visit_count" text DEFAULT '0';
