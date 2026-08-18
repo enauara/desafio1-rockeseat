@@ -27,7 +27,8 @@ Via terminal acessar a pasta /server:
 - Instalar as dependencias: `npm install`  
 - Configurar o ambiente com variáveis anteriores.  
 - Acessar a pasta /server e rodar o comando: `docker compose up -d`  
-- Rodar as migrations para sincronizar o banco: `npx prisma migrate dev`
+- Gera os arquivos de migration: `npm run db:generate`
+- Aplica as migrations no banco: `npm run db:migrate`
 - Iniciar o servidor: `npm run dev`
 
 ### Frontend:  

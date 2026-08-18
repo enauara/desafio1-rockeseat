@@ -3,8 +3,8 @@ services:
     image: postgres:15-alpine
     container_name: shortener-db
     environment:
-      POSTGRES_USER=${POSTGRES_USER}
-      POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      POSTGRES_DB=shortener
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=shortener
     ports:
       - "5433:5432"

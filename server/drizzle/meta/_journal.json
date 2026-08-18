@@ -15,6 +15,13 @@
       "when": 1777335475525,
       "tag": "0001_panoramic_squirrel_girl",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1787011762372,
+      "tag": "0002_equal_thing",
+      "breakpoints": true
     }
   ]
 }
